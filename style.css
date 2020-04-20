@@ -1,0 +1,350 @@
+html, body{
+	font-family: 'Anton', sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+.navbar {
+	background-color: black;
+	padding: 1% 1% ;
+	font-size: 20px;
+}
+
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+	color:#a3a3a3;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color:#FFF;
+	text-decoration:underline;
+}
+
+.navbar-default .navbar-nav li a.active {
+	color:#FFF;
+}
+
+#home {
+	background: url(monitor.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	color: white;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+}
+
+.padding {
+	padding: 80px 0;
+}
+
+.padding img {
+	width: 100%;
+}
+
+#fixed {
+	background: url(lights.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	padding: 5% 5% 10% 5%;
+	color: white;
+}
+
+.school {
+	padding: 15px;
+	font-size: 25px;
+	color: black;
+}
+.school:hover{
+	color: #3C5A99;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: white;
+}
+
+.fa-facebook:hover{
+	color: #3C5A99;
+}
+
+.fa-twitter:hover{
+	color: #1DA1F2;
+}
+
+.fa-google:hover{
+	color: #0F9D58;
+}
+.fa-soundcloud:hover{
+	color: #FE5000;
+}
+.fa-youtube:hover{
+	color: #FF0000;
+}
+.icon {
+	max-width: 200px;
+}
+
+@media (max-width: 768px) {
+	.landing-text h1{
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
+
+#logóm img{
+	transition: 2s;
+  -webkit-transition: 1s;
+}
+
+#logóm img:hover{
+	opacity: 0.4;
+	transform: 1s;
+}
+
+/***CARDS*/
+
+.swiper-card{
+  min-width:100%;
+}
+
+.swiper-container {
+  height: 460px;
+  width: 320px;
+} 
+
+.swiper-slide {
+  background-position: center;
+  width: 320px;
+  background-color: #fff;
+  box-shadow: .5rem .5rem 2rem 0.5rem rgba(0,0,0,0.2);
+}
+
+/**top**part**/
+.picture {
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+}
+.picture img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/**top**part*end*/
+
+/**bottom**part**/
+.detail {
+  padding:0px 50px 50px 50px;
+  font-weight: 600;
+  text-align: center;
+}
+.detail h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.detail span {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+}
+
+/**bottom**part*end*/
+
+/***contact bottom**/
+.detail .btn{
+  display: block;
+  padding: 0.5rem 0.5rem;
+  background-color: black;
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  transition: all .5s;
+}
+
+.detail .btn:hover{
+  transform: translateY(5px);
+  box-shadow: .5rem .5rem 2rem 0.5rem rgba(0,0,0,0.2)
+
+}
+
+.detail .btn:active{
+  transform: translateY(0px);
+  box-shadow: none;
+}
+
+.detail .btn a{
+  text-decoration: none;
+  color: #fff;
+}
+/***contact*bottom*end*/
+
+/***CARDS**END*/
+
+/**SONGS**/
+
+.swiper-slide-song {
+  float: left;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  background-position: center;
+  width: 265.2px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: .5rem .5rem 2rem 0.5rem rgba(0,0,0,0.2)
+}
+/**top**part**/
+.kép {
+  width: 265.2px;
+  height: 265.2px;
+  overflow: hidden;
+}
+.kép img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/**top**part*end*/
+
+/**bottom**part**/
+
+.detail-song {
+  max-height: 200px;
+  width: 265.2px; 
+  padding:0px 10px 0px 10px;
+  font-weight: 600;
+  text-align: center;
+}
+.detail-song h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.detail-song span {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+}
+
+/**bottom**part*end*/
+
+/***contact bottom**/
+
+.detail-song .btn-song{
+  display: block;
+  padding: 0.5rem 0.5rem;
+  background-color: black;
+  margin: 0.5rem 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:white;
+  font-size: 1rem;
+  transition: all .5s;
+}
+
+.detail-song .btn-song:hover{
+  transform: translateY(5px);
+  box-shadow: .5rem .5rem 2rem 0.5rem rgba(0,0,0,0.2)
+
+}
+
+.detail-songsong
+ .btn-song:active{
+  transform: translateY(0px);
+  box-shadow: none;
+}
+
+.detail-song .btn-song a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/***contact*bottom*end*/
+
+/***song**END*/
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #161e39;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  transform: translateY(5px);
+  box-shadow: .5rem .5rem 2rem 0.5rem rgba(0,0,0,0.2)
+}
+
+ div .rendeles {
+  border-radius: 20%;
+  background-color: #ffffff;
+  padding-left: 10%;
+  padding-right: 10%;
+}
